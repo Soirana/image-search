@@ -1,0 +1,20 @@
+{
+  "name": "image-searcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "4.4.3"
+  },
+  "keywords": [],
+  "author": "soirana",
+  "license": "ISC",
+  "description": "image search imgur",
+  "dependencies": {
+    "express": "4.13.4",
+    "nedb": "1.8.0",
+    "request": "2.72.0"
+  }
+}
