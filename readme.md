@@ -11,3 +11,6 @@ For [freeCodeCamp](http://freecodecamp.com) - [Image Search Abstraction Layer](h
 
 ### Heroku:
 [https://soirana-image-search.herokuapp.com]
+
+### Uses
+Imgur API
