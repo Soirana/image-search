@@ -7,7 +7,7 @@ var app = express();
 var html = fs.readFileSync('index.html');
 var db = new Datastore({ filename: 'links.db', autoload: true });
 app.set('port', (process.env.PORT || 5000));
-var searchId = ENV['IMGUR_KEY'];//assign key here
+var searchId = process.env['IMGUR_KEY'];//assign key here
 
 app.get('/', function(request, response) {
 	response.writeHead(200, {'Content-Type': 'text/html'});
